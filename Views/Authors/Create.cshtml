@@ -1,0 +1,11 @@
+﻿@model Author
+
+<h1>Добавить автора</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label>Имя автора:</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+</form>
